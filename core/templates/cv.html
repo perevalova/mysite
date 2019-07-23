@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+{% load static from staticfiles %}
+
+{% block title %}{% endblock title %}
+
+
+
+{% block content %}
+<header class="header">
+<div>
+    <div class="container">
+        <div>
+            <h1>CV</h1>
+        </div>
+    </div>
+</div>
+
+
+</header>
+        <div class="container" id="main-container">
+        <section>
+            <div class="row">
+                <div class="col-lg">
+                    <a class="btn btn-dark" href="{% url 'download_pdf' %}"
+                       role="button">Download PDF</a>
+                </div>
+            </div>
+        </section>
+        </div>
+
+{% endblock content %}

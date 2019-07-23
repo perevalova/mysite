@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: core/templates/base.html:10
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-21 16:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: core/forms/contact.py:31
+msgid "Send"
+msgstr "Отправить"
+
+#: core/forms/contact.py:33
+msgid "Your email"
+msgstr "Ваша почта"
+
+#: core/forms/contact.py:35
+msgid "Title message"
+msgstr ""
+
+#: core/forms/contact.py:37
+msgid "Text message"
+msgstr "Текст сообщения"
+
+#: core/templates/about.html:6 core/templates/navbar.html:21
+msgid "About"
+msgstr "Обо мне"
+
+#: core/templates/base.html:9 core/templates/base.html:52
+#: core/templates/home.html:6 core/templates/navbar.html:7
+msgid "Anastasia Perevalova"
+msgstr "Анастасия Перевалова"
+
+#: core/templates/contacts.html:25 core/templates/navbar.html:30
+msgid "Contacts"
+msgstr "Контакты"
+
+#: core/templates/contacts.html:31
+msgid "Follow me"
+msgstr "Следите за мной"
+
+#: core/templates/contacts.html:68
+msgid "You can also sand me an email"
+msgstr ""
+
+#: core/templates/navbar.html:18
+msgid "Home"
+msgstr "Главная"
+
+#: core/templates/navbar.html:24
+msgid "Projects"
+msgstr "Проекты"
+
+#: core/views/contact.py:27
+msgid "Message sended successfuly!"
+msgstr "Сообщение успешно отправлено!"
+
+#: core/views/contact.py:32
+msgid ""
+"There was an unexpected error while sending the letter. Try using this form "
+"later."
+msgstr ""

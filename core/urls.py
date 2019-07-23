@@ -1,8 +1,15 @@
 from django.urls import path
 
-from .views import homePageView, ProjectPageView
+from core.views.contact import ContactView
+from core.views.cv import CvPageView, download_file
+from .views.main import HomePageView, AboutPageView
+
 
 urlpatterns = [
-    path('', homePageView, name='home'),
-    path('projects', ProjectPageView, name='projects'),
+    path('', HomePageView.as_view(), name='home'),
+    path('about', AboutPageView.as_view(), name='about'),
+    path('contacts', ContactView.as_view(), name='contacts'),
+    path('cv', CvPageView.as_view(), name='cv'),
+    path('download/cv', download_file, name='download_pdf')
+    # path('projects/', ProjectPageView, name='projects'),
 ]

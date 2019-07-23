@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+{% load static from staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <div class="container text-center" id="main-container">
+        <section id="contacts">
+            <div class="row">
+                <div class="col-lg">
+                    <h1 class="text-center title">{% trans "Contacts" %}</h1>
+                </div>
+            </div>
+        <div class="row">
+                    <div class="col-lg mt-4">
+                <h2 class="text-center">{% trans "Follow me" %}</h2>
+
+        </div>
+        </div>
+            <!-- Social buttons -->
+            <div class="social-icon">
+                <div class="row">
+                    <div class="col-lg mb-5">
+                        <ul class="list-unstyled list-inline text-center">
+                            <li>
+                                <a class="btn-floating btn-fb mx-4"
+                                   href="https://www.facebook.com/rowenochka">
+                                    <i class="fab fa-facebook-f fa-lg white-text fa-3x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-floating btn-tw mx-4"
+                                   href="https://www.instagram.com/last1vka">
+                                    <i class="fab fa-instagram fa-lg white-text fa-3x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-floating btn-li mx-4"
+                                   href="https://www.linkedin.com/in/aperevalova/">
+                                    <i class="fab fa-linkedin-in fa-lg white-text fa-3x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-floating btn-dribbble mx-4"
+                                   href="https://github.com/perevalova">
+                                    <i class="fab fa-github fa-lg white-text fa-3x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-floating btn-gplus mx-4"
+                                   href="https://www.youtube.com/channel/UCW7X1piPPjT2ZI0YjSgZ-yg">
+                                    <i class="fab fa-youtube fa-lg white-text fa-3x"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End ocial buttons -->
+            <!-- Grid row-->
+            <div class="row justify-content-center">
+                <div class="col-lg">
+                    <h3 class="text-center">{% trans "You can also sand me an email" %}</h3>
+                </div>
+            </div>
+
+            <!-- Status Message -->
+            <div class="row">
+                <div class="col-lg">
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }}"
+                                 role="alert">{{ message }}</div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Field errors -->
+                {% if form.errors %}
+                    <div class="row justify-content-center">
+                        {% for field_with_error,error_messages in form.errors.items %}
+                            <div class="alert alert-danger">{{ field_with_error }} {{ error_messages }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                <!-- Non-field errors -->
+                {% if form.non_field_errors %}
+                    <div class="row">
+                        {% for error in form.non_field_errors %}
+                            <div class="alert alert-danger">{{ error }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+            <div class="row justify-content-center align-items-center">
+                {% crispy form %}
+            </div>
+        </section>
+    </div>
+{% endblock content %}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700i&display=swap&subset=cyrillic');
+
+
+body {
+    background-image: url('../img/siteback2.jpg');
+    font-family: 'Lora';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title {
+    font-family: 'Lora';
+}
+
+/* Navigation bar */
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+#navbar {
+    background-color: #161940;
+}
+
+.navbar-brand {
+    font-family: 'Lora';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.language {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    background-color: #1a2e92;
+}
+
+/* About page */
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1 {
+    color: #F97300;
+    margin: 2em;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+
+.about span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #10828C;
+}
+
+.about .desc h3 {
+    color: #10828C;
+}
+
+.about .desc p {
+    line-height: 2;
+    color: #888;
+}
+
+#main-container {
+    margin-top: 60px;
+    flex-grow: 1;
+    position: relative;
+}
+
+#main-content {
+    justify-content: center;
+}
+
+/* Contacts page */
+#contacts h1 h2 {
+    color: #002475;
+    background-color: white;
+}
+
+#contacts h1{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.social-icon i {
+    color: #000;
+}
+
+.social-icon i:hover {
+    color: #000678;
+}
+
+.social-icon li {
+    display: inline-block;
+}
+
+.list-inline-item {
+    margin-right: 0px;
+}
+
+/* Home page */
+.header {
+    /*background-image: url('../img/headerback.png');*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color: #131d74;
+}
+
+.description p {
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background-color: #333D80;
+    color: white;
+}
+
+h1 h2 h3 {
+    font-weight: 700;
+}
