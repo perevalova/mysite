@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: core/templates/base.html:10
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-21 16:43+0000\n"
+"POT-Creation-Date: 2019-08-25 12:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,49 +28,77 @@ msgstr "Отправить"
 msgid "Your email"
 msgstr "Ваша почта"
 
-#: core/forms/contact.py:35
+#: core/forms/contact.py:34
 msgid "Title message"
-msgstr ""
+msgstr "Заголовок сообщения"
 
-#: core/forms/contact.py:37
+#: core/forms/contact.py:35
 msgid "Text message"
 msgstr "Текст сообщения"
 
-#: core/templates/about.html:6 core/templates/navbar.html:21
-msgid "About"
-msgstr "Обо мне"
+#: core/templates/about.html:11
+msgid "My photo"
+msgstr "Мое фото"
 
-#: core/templates/base.html:9 core/templates/base.html:52
-#: core/templates/home.html:6 core/templates/navbar.html:7
+#: core/templates/about.html:16
+msgid ""
+"My name is Anastasia. I’m searching for Junior Python/Django Developer "
+"position. I'm from Zhytomyr, Ukraine. Now I'm studying at Zhytomyr State "
+"Technological University of Computer Software Engineering."
+msgstr ""
+
+#: core/templates/about.html:20 core/templates/cv.html:27
+msgid "Download"
+msgstr "Скачать"
+
+#: core/templates/base.html:9 core/templates/base.html:39
+#: core/templates/navbar.html:8
 msgid "Anastasia Perevalova"
 msgstr "Анастасия Перевалова"
 
-#: core/templates/contacts.html:25 core/templates/navbar.html:30
+#: core/templates/contacts.html:12 core/templates/navbar.html:38
 msgid "Contacts"
 msgstr "Контакты"
 
-#: core/templates/contacts.html:31
+#: core/templates/contacts.html:17
 msgid "Follow me"
 msgstr "Следите за мной"
 
-#: core/templates/contacts.html:68
+#: core/templates/contacts.html:64
 msgid "You can also sand me an email"
-msgstr ""
+msgstr "Вы также можете отправить мне письмо"
 
-#: core/templates/navbar.html:18
+#: core/templates/home.html:13
+msgid "Welcome to my site"
+msgstr "Добро пожаловать на мой сайт"
+
+#: core/templates/home.html:14
+msgid ""
+"This is my personal website. It contains information about me. In the near "
+"future also a portfolio of my works will appear."
+msgstr ""
+"Это мой личный сайт. Он содержит информацию обо мне. В ближайшее время также "
+"появится портфолио моих работ."
+
+#: core/templates/home.html:16
+msgid "Read more about me"
+msgstr "Читать больше обо мне"
+
+#: core/templates/navbar.html:24
 msgid "Home"
 msgstr "Главная"
 
-#: core/templates/navbar.html:24
+#: core/templates/navbar.html:28
+msgid "About"
+msgstr "Обо мне"
+
+#: core/templates/navbar.html:31
 msgid "Projects"
 msgstr "Проекты"
 
-#: core/views/contact.py:27
-msgid "Message sended successfuly!"
-msgstr "Сообщение успешно отправлено!"
+#: mysite/settings.py:132
+msgid "Polish"
+msgstr "Polski"
 
-#: core/views/contact.py:32
-msgid ""
-"There was an unexpected error while sending the letter. Try using this form "
-"later."
-msgstr ""
+#~ msgid "Message sended successfuly!"
+#~ msgstr "Сообщение успешно отправлено!"

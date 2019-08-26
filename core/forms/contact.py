@@ -28,7 +28,7 @@ class ContactForm(forms.Form):
         self.helper.field_class = 'col-md-8'
 
         # form buttons
-        self.helper.add_input(Submit('send_button', _('Send'), css_class="btn-dark"))
+        self.helper.add_input(Submit('send_button', _('Send'), css_class="col-md-8 btn-dark"))
 
     from_email = forms.EmailField(label=_('Your email'))
     subject = forms.CharField(label=_('Title message'), max_length=128)

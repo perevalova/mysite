@@ -28,11 +28,11 @@
                        href="{% url 'about' %}">{% trans "About" %}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">{% trans "Projects" %}</a>
+                    <a class="nav-link" href="{% url 'projects' %}">{% trans "Projects" %}</a>
                 </li>
-                <li class="nav-item {% if cv_url in request.path %}active{% endif %}">
-                    <a class="nav-link" href="{% url 'cv' %}">CV</a>
-                </li>
+{#                <li class="nav-item {% if cv_url in request.path %}active{% endif %}">#}
+{#                    <a class="nav-link" href="{% url 'cv' %}">CV</a>#}
+{#                </li>#}
                 <li class="nav-item {% if contacts_url in request.path %}active{% endif %}">
                     <a class="nav-link"
                        href="{% url 'contacts' %}">{% trans "Contacts" %}</a>

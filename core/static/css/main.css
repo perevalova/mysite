@@ -2,15 +2,16 @@
 
 
 body {
-    background-image: url('../img/siteback2.jpg');
-    font-family: 'Lora';
+    background-image: url('../img/siteback3.png');
+    font-family: 'Lora', serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    /*background: rgba(0, 0, 0, 0.22);*/
 }
 
 .title {
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
 }
 
 /* Navigation bar */
@@ -23,7 +24,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
     font-weight: 700;
     font-style: italic;
     font-size: 25px;
@@ -36,6 +37,15 @@ body {
 }
 
 /* About page */
+
+#about {
+    margin-top: 30px;
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+}
 .about {
     margin: 4em 0;
     padding: 1em;
@@ -85,6 +95,9 @@ body {
 }
 
 /* Contacts page */
+#contacts {
+    background: rgba(244, 244, 244, 0.73);
+}
 #contacts h1 h2 {
     color: #002475;
     background-color: white;
@@ -113,46 +126,52 @@ body {
 
 /* Home page */
 .header {
-    /*background-image: url('../img/headerback.png');*/
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    margin-top: 60px;
-    flex-grow: 1;
-    position: relative;
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(244, 244, 244, 0.79);
-}
 
 .description {
-    position: absolute;
-    top: 30%;
-    margin: auto;
+    background: rgba(244, 244, 244, 0.73);
+    /*position: fixed;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    margin-top: 150px;
+    /*margin: auto;*/
     padding: 2em;
 }
 
-.description h1 {
+.description h1, .projects h1, .projects h2 {
     color: #131d74;
 }
 
-.description p {
-    color: #666;
+.description p, .projects p {
+    color: #414141;
     font-size: 20px;
-    width: 50%;
+    /*width: 50%;*/
     line-height: 1.5;
+}
+
+/*Projects*/
+.projects {
+    background: rgba(244, 244, 244, 0.73);
+    padding: 2em;
+    display: flex;
+    /*align-items: center;*/
+    /*flex: auto;*/
+    justify-content: center;
+
 }
 
 /* Footer */
 footer {
     background-color: #333D80;
     color: white;
+    /*position: absolute;*/
 }
 
 h1 h2 h3 {

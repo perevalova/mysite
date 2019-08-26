@@ -5,22 +5,20 @@
 
 {% block content %}
     <header class="header">
-        <div class="overlay">
             <div class="container">
-                <div class="description">
+                <div class="row">
+                    <div class="col description text-center">
+{#                <div class="">#}
 
-                    <h1>Welcome to my site</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Aspernatur consectetur consequatur cum ducimus est eum
-                        exercitationem
-                        fuga fugiat maxime minima molestiae, molestias
-                        necessitatibus nihil
-                        nobis reprehenderit saepe sit temporibus vero!</p>
+                    <h1>{% trans "Welcome to my site" %}</h1>
+                    <p>{% trans "This is my personal website. It contains information about me. In the near future also a portfolio of my works will appear." %}</p>
                     <a class="btn btn-dark" href="{% url 'about' %}"
-                       role="button">Read more about me</a>
+                       role="button">{% trans "Read more about me" %}</a>
+{#                </div>#}
+
+                    </div>
                 </div>
             </div>
-        </div>
     </header>
 
 {% endblock content %}
