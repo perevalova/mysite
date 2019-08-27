@@ -53,7 +53,7 @@ docs/_build/
 db*
 
 #Ignore modules
-local_settings.py
+dev_settings.py
 .idea/
 
 # Python Decouple

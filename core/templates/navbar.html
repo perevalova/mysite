@@ -17,7 +17,8 @@
             <ul class="navbar-nav">
                 {% url "home" as home_url %}
                 {% url "about" as about_url %}
-                {% url "cv" as cv_url %}
+{#                {% url "cv" as cv_url %}#}
+                {% url "projects" as projects_url %}
                 {% url "contacts" as contacts_url %}
                 <li class="nav-item {% if request.path == home_url %}active{% endif %}">
                     <a class="nav-link"
@@ -27,7 +28,7 @@
                     <a class="nav-link"
                        href="{% url 'about' %}">{% trans "About" %}</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {% if projects_url in request.path %}active{% endif %}">
                     <a class="nav-link" href="{% url 'projects' %}">{% trans "Projects" %}</a>
                 </li>
 {#                <li class="nav-item {% if cv_url in request.path %}active{% endif %}">#}

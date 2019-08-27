@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-25 12:43+0000\n"
+"POT-Creation-Date: 2019-08-27 12:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,21 +40,31 @@ msgstr ""
 
 #: core/templates/about.html:16
 msgid ""
-"My name is Anastasia. I’m searching for Junior Python/Django Developer "
-"position. I'm from Zhytomyr, Ukraine. Now I'm studying at Zhytomyr State "
-"Technological University of Computer Software Engineering."
+"My name is Anastasia. I’m looking for vacancy Junior Python/Django "
+"Developer. I'm from Zhytomyr, Ukraine. Now I'm studying at Zhytomyr "
+"Polytechnic State University of specialty Software Engineering."
 msgstr ""
 
-#: core/templates/about.html:20 core/templates/cv.html:27
+#: core/templates/about.html:17
+msgid "Hobby"
+msgstr ""
+
+#: core/templates/about.html:19
+msgid ""
+"I like to ride a bike, run, listen to music, sing. At my free time I prefer "
+"to reading books and learning play on guitar."
+msgstr ""
+
+#: core/templates/about.html:24 core/templates/cv.html:27
 msgid "Download"
 msgstr ""
 
-#: core/templates/base.html:9 core/templates/base.html:39
+#: core/templates/base.html:9 core/templates/base.html:37
 #: core/templates/navbar.html:8
 msgid "Anastasia Perevalova"
 msgstr ""
 
-#: core/templates/contacts.html:12 core/templates/navbar.html:38
+#: core/templates/contacts.html:12 core/templates/navbar.html:39
 msgid "Contacts"
 msgstr ""
 
@@ -72,24 +82,40 @@ msgstr ""
 
 #: core/templates/home.html:14
 msgid ""
-"This is my personal website. It contains information about me. In the near "
-"future also a portfolio of my works will appear."
+"This is my personal website. It contains information about me, portfolio and "
+"near future there will be a blog."
 msgstr ""
 
 #: core/templates/home.html:16
 msgid "Read more about me"
 msgstr ""
 
-#: core/templates/navbar.html:24
+#: core/templates/navbar.html:25
 msgid "Home"
 msgstr ""
 
-#: core/templates/navbar.html:28
+#: core/templates/navbar.html:29
 msgid "About"
 msgstr ""
 
-#: core/templates/navbar.html:31
+#: core/templates/navbar.html:32
 msgid "Projects"
+msgstr ""
+
+#: core/templates/projects.html:12
+msgid "My works"
+msgstr ""
+
+#: core/templates/projects.html:23
+msgid "Student Account Service"
+msgstr ""
+
+#: core/templates/projects.html:27
+msgid "The site is designed to account for students"
+msgstr ""
+
+#: core/templates/projects.html:32
+msgid "View"
 msgstr ""
 
 #: mysite/settings.py:132

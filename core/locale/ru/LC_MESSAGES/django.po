@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-25 12:43+0000\n"
+"POT-Creation-Date: 2019-08-27 12:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,21 +42,37 @@ msgstr "Мое фото"
 
 #: core/templates/about.html:16
 msgid ""
-"My name is Anastasia. I’m searching for Junior Python/Django Developer "
-"position. I'm from Zhytomyr, Ukraine. Now I'm studying at Zhytomyr State "
-"Technological University of Computer Software Engineering."
+"My name is Anastasia. I’m looking for vacancy Junior Python/Django "
+"Developer. I'm from Zhytomyr, Ukraine. Now I'm studying at Zhytomyr "
+"Polytechnic State University of specialty Software Engineering."
 msgstr ""
+"Меня зовут Анастасия. Я ищу вакансию Junior Python/Django Developer. Я из "
+"Житомира, Украина. Сейчас я учусь в Госсударственном университете "
+"'Житомирская политехника' по специальности «Разработка "
+"программного обеспечения»."
 
-#: core/templates/about.html:20 core/templates/cv.html:27
+#: core/templates/about.html:17
+msgid "Hobby"
+msgstr "Хобби"
+
+#: core/templates/about.html:19
+msgid ""
+"I like to ride a bike, run, listen to music, sing. At my free time I prefer "
+"to reading books and learning play on guitar."
+msgstr ""
+"Я люблю кататься на велосипеде, бегать, слушать музыку, петь. В свободное "
+"время я предпочитаю читать книги и учиться играть на гитаре."
+
+#: core/templates/about.html:24 core/templates/cv.html:27
 msgid "Download"
 msgstr "Скачать"
 
-#: core/templates/base.html:9 core/templates/base.html:39
+#: core/templates/base.html:9 core/templates/base.html:37
 #: core/templates/navbar.html:8
 msgid "Anastasia Perevalova"
 msgstr "Анастасия Перевалова"
 
-#: core/templates/contacts.html:12 core/templates/navbar.html:38
+#: core/templates/contacts.html:12 core/templates/navbar.html:39
 msgid "Contacts"
 msgstr "Контакты"
 
@@ -74,27 +90,43 @@ msgstr "Добро пожаловать на мой сайт"
 
 #: core/templates/home.html:14
 msgid ""
-"This is my personal website. It contains information about me. In the near "
-"future also a portfolio of my works will appear."
+"This is my personal website. It contains information about me, portfolio and "
+"near future there will be a blog."
 msgstr ""
-"Это мой личный сайт. Он содержит информацию обо мне. В ближайшее время также "
-"появится портфолио моих работ."
+"Это мой личный сайт. Содержит информацию обо мне, портфолио и в ближайшем "
+"будущем будет блог."
 
 #: core/templates/home.html:16
 msgid "Read more about me"
 msgstr "Читать больше обо мне"
 
-#: core/templates/navbar.html:24
+#: core/templates/navbar.html:25
 msgid "Home"
 msgstr "Главная"
 
-#: core/templates/navbar.html:28
+#: core/templates/navbar.html:29
 msgid "About"
 msgstr "Обо мне"
 
-#: core/templates/navbar.html:31
+#: core/templates/navbar.html:32
 msgid "Projects"
 msgstr "Проекты"
+
+#: core/templates/projects.html:12
+msgid "My works"
+msgstr "Мои работы"
+
+#: core/templates/projects.html:23
+msgid "Student Account Service"
+msgstr "Сервис Учета Студентов"
+
+#: core/templates/projects.html:27
+msgid "The site is designed to account for students"
+msgstr "Сайт предназначен для учёта студентов"
+
+#: core/templates/projects.html:32
+msgid "View"
+msgstr "Посмотреть"
 
 #: mysite/settings.py:132
 msgid "Polish"
