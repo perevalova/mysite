@@ -14,7 +14,7 @@ MIDDLEWARE_CLASSES = (
     'whitenoise.middleware.WhiteNoiseMiddleware',
 )
 
-ALLOWED_HOSTS = ['https://perevalova.herokuapp.com']
+ALLOWED_HOSTS = ['https://perevalova.herokuapp.com', 'perevalova.herokuapp.com']
 
 DATABASES = {
     'default': {
