@@ -1,1 +1,1 @@
-web: gunicorn studentsdb2.wsgi --log-file -
+web: gunicorn mysite.wsgi --log-file -
