@@ -47,7 +47,7 @@ msgid ""
 "Developer. I'm from Zhytomyr, Ukraine. Now I'm studying at Zhytomyr "
 "Polytechnic State University of specialty Software Engineering."
 msgstr ""
-"Мене звуть Анастасія. Я шукаю вакансію Junior Python / Django Developer. Я з "
+"Мене звуть Анастасія. Я шукаю вакансію Junior Python/Django Developer. Я з "
 "Житомира, Україна. Зараз я навчаюсь у Державному університеті 'Житомирська "
 "політехніка' за спеціальністю 'Інженерія програмного забезпечення'."
 
