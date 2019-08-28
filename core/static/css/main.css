@@ -2,10 +2,15 @@
 
 
 body {
-    background-image: url('../img/568.jpg');
-    background-position: center;
+    background-color: #0b0f52;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2321135b' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23381863' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%234e1c6c' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23652174' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%237b257d' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    /* background by SVGBackgrounds.com */
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
+    /*background-image: url('../img/568.jpg');*/
+    /*background-position: center;*/
+    /*background-attachment: fixed;*/
+    /*background-size: 100%;*/
     font-family: 'Lora', serif;
     display: flex;
     flex-direction: column;
@@ -129,7 +134,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #092180;
+    background-color: #2f0864;
     color: white;
 }
 
