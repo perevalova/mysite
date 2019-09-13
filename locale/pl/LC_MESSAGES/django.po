@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-27 12:37+0000\n"
+"POT-Creation-Date: 2019-09-13 15:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,16 +63,29 @@ msgstr "Hobby"
 msgid ""
 "I like to ride a bike, run, listen to music, sing. At my free time I prefer "
 "to reading books and learning play on guitar."
-msgstr "Lubię jeździć na rowerze, biegać, słuchać muzyki, śpiewać. W wolnym czasie wolę czytać książki i uczyć się gry na gitarze."
+msgstr ""
+"Lubię jeździć na rowerze, biegać, słuchać muzyki, śpiewać. W wolnym czasie "
+"wolę czytać książki i uczyć się gry na gitarze."
 
 #: core/templates/about.html:24 core/templates/cv.html:27
 msgid "Download"
 msgstr "Ściągnij"
 
-#: core/templates/base.html:9 core/templates/base.html:37
+#: core/templates/base.html:9 core/templates/base.html:38
 #: core/templates/navbar.html:8
 msgid "Anastasia Perevalova"
 msgstr "Anastazja Perewałowa"
+
+#: core/templates/base.html:10
+msgid "Personal website. It contains information about me, my projects."
+msgstr ""
+"Osobista strona internetowa. Zawiera informację o mnie, moje projecty."
+
+#: core/templates/base.html:11
+msgid ""
+"Anastasia Perevalova, personal website, Python/Django Developer, create "
+"website, Zhytomyr website"
+msgstr "Anastasia Perevalova, osobista strona internetowa, Python/Django programista, utwórz stronę internetową, Żytomierz website"
 
 #: core/templates/contacts.html:12 core/templates/navbar.html:39
 msgid "Contacts"
@@ -94,7 +107,9 @@ msgstr "Witam na mojej stronie"
 msgid ""
 "This is my personal website. It contains information about me, portfolio and "
 "near future there will be a blog."
-msgstr "To moja osobista strona internetowa. Zawiera informacje o mnie, portfolio i w niedalekiej przyszłości powstanie blog."
+msgstr ""
+"To moja osobista strona internetowa. Zawiera informacje o mnie, portfolio i "
+"w niedalekiej przyszłości powstanie blog."
 
 #: core/templates/home.html:16
 msgid "Read more about me"
@@ -128,6 +143,6 @@ msgstr "Strona przeznaczona jest dla księgowania studentów"
 msgid "View"
 msgstr "Zobacz"
 
-#: mysite/settings.py:132
+#: mysite/settings.py:124
 msgid "Polish"
 msgstr "Polski"
